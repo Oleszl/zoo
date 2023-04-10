@@ -37,7 +37,7 @@ public class Zoo {
                 createAnimal(Tiger.class);
                 break;
             default:
-                throw new RuntimeException("Sorry, your provide incorrect option");
+                throw new RuntimeException("Sorry, you provide incorrect option");
         }
     }
 
